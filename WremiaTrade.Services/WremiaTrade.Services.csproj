@@ -11,6 +11,7 @@
       <Folder Include="Calculate" />
       <Folder Include="Indicator" />
       <Folder Include="Notification" />
+      <Folder Include="Source" />
       <Folder Include="Strategy" />
       <Folder Include="Trade" />
     </ItemGroup>
