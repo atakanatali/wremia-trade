@@ -6,4 +6,18 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Analyze" />
+      <Folder Include="Calculate" />
+      <Folder Include="Indicator" />
+      <Folder Include="Notification" />
+      <Folder Include="Strategy" />
+      <Folder Include="Trade" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="RestSharp" Version="109.0.1" />
+    </ItemGroup>
+
 </Project>

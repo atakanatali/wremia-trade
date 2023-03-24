@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5TvRZ0XK5FepMef3FQFOC+0+PQyMT4cSHA1pWgLqekorAxo+aUzb7Hl8yjY4Q3uKhj9erOQIfUwIung/nh+pbw==",
+  "dgSpecHash": "1V7D8DmOo3PjtKQTPpD8OwOZ6uFhzwQ1Q47EP/dOikg6mmbfJR/pXJ8hOiXFdO7lcQv0Yk3XgCQgGrub5WRs6w==",
   "success": true,
   "projectFilePath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/atakan/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/atakan/.nuget/packages/restsharp/109.0.1/restsharp.109.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
