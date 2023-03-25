@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9p9AWLLehy+SZnHiWer1l2JUx7yqYBEktdnMqlaoPH0=",
+  "Source": "WremiaTrade.Hangfire.Trade",
+  "BasePath": "_content/WremiaTrade.Hangfire.Trade",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

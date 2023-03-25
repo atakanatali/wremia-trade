@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Fs1kRjIPhI9W+SRdAOA9jfhpO9W8DdUCPKTJ7mQgahQ=",
+  "Source": "WremiaTrade.Hangfire.Trigger",
+  "BasePath": "_content/WremiaTrade.Hangfire.Trigger",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/bin/Debug/net6.0/WremiaTrade.Common.deps.json
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/bin/Debug/net6.0/WremiaTrade.Common.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/bin/Debug/net6.0/ref/WremiaTrade.Common.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/bin/Debug/net6.0/WremiaTrade.Common.pdb
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.csproj.AssemblyReference.cache
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.AssemblyInfoInputs.cache
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.AssemblyInfo.cs
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.csproj.CoreCompileInputs.cache
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/ref/WremiaTrade.Common.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Common/obj/Debug/net6.0/WremiaTrade.Common.pdb

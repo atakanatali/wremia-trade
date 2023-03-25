@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dwqbYVaGJcyDeBxg7SSF9KrWQzgivmU8SzDBQOW+bVY=",
+  "Source": "WremiaTrade.Hangfire.Notification",
+  "BasePath": "_content/WremiaTrade.Hangfire.Notification",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

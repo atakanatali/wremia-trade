@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5evMmD6ZqoLYwKl4O9kZHFWndvzWlj+vXxzSrzFwjAI=",
+  "Source": "WremiaTrade.Hangfire.Indicator",
+  "BasePath": "_content/WremiaTrade.Hangfire.Indicator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

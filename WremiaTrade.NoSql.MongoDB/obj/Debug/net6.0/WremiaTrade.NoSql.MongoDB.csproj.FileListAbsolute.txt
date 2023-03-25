@@ -1,0 +1,12 @@
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/bin/Debug/net6.0/WremiaTrade.NoSql.MongoDB.deps.json
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/bin/Debug/net6.0/WremiaTrade.NoSql.MongoDB.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/bin/Debug/net6.0/ref/WremiaTrade.NoSql.MongoDB.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/bin/Debug/net6.0/WremiaTrade.NoSql.MongoDB.pdb
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.csproj.AssemblyReference.cache
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.AssemblyInfoInputs.cache
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.AssemblyInfo.cs
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.csproj.CoreCompileInputs.cache
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/ref/WremiaTrade.NoSql.MongoDB.dll
+/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.NoSql.MongoDB/obj/Debug/net6.0/WremiaTrade.NoSql.MongoDB.pdb
