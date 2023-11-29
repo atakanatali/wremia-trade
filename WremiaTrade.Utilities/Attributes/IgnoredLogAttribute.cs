@@ -1,4 +1,4 @@
-﻿namespace Papara.Utilities.Attributes
+﻿namespace WremiaTrade.Utilities.Attributes
 {
     using System;
     

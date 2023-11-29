@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-using Papara.Services.Abstraction;
-
-namespace Papara.Common.ApiHelpers
+﻿namespace WremiaTrade.Common.ApiHelpers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Filters;
+    using WremiaTrade.Services.Abstraction;
+    
     /// <summary>
     /// Parametrenin null olup olmadığını kontrol eden attribute
     /// ModelState.IsValid kontrolü parametre null olduğunda true döndüğü için kullanıyoruz.
@@ -20,7 +20,7 @@ namespace Papara.Common.ApiHelpers
         /// 
         /// </summary>
         public CheckModelForNullAttribute()
-            : this(arguments => arguments.ContainsValue(null))
+            : this(arguments => arguments.ContainsValue(null!))
         {
         }
 
@@ -39,12 +39,10 @@ namespace Papara.Common.ApiHelpers
         /// <param name="actionContext"></param>
         public override void OnActionExecuting(ActionExecutingContext actionContext)
         {
-            if (!actionContext.ActionArguments.Keys.Any())
-            {
-                var response = new ServiceResult(ServiceError.ModelStateError("Input cannot be null"));
+            if (actionContext.ActionArguments.Keys.Any()) return;
+            var response = new ServiceResult(ServiceError.ModelStateError("Input cannot be null"));
 
-                actionContext.Result = new OkObjectResult(response);
-            }
+            actionContext.Result = new OkObjectResult(response);
         }
     }
 }

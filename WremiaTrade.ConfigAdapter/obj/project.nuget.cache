@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MhXmFOYL9CH83KAlmy5s8vz5RcQmgMYKjMRE9xiLzslDM91uirwvHOm9zvZwVPIWpsbMEeJ9uXvCtj1RZZZNxg==",
+  "dgSpecHash": "IDEXW2uPwJfwi3XwcWAqH9jAQIkyiEz/NOsbl8GG7g7oU9TYhnl+eNexSmyYdyO6GO2RkxfWhrYjW/Eivgl4hw==",
   "success": true,
   "projectFilePath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/atakan/.nuget/packages/microsoft.extensions.configuration/8.0.0-preview.2.23128.3/microsoft.extensions.configuration.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/Users/atakan/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0-preview.2.23128.3/microsoft.extensions.configuration.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/Users/atakan/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.2.23128.3/microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/Users/atakan/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

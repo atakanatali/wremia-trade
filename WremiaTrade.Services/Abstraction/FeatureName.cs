@@ -1,5 +1,5 @@
 ﻿
-namespace Papara.Services.Abstraction
+namespace WremiaTrade.Services.Abstraction
 {
     /// <summary>
     /// Functionality Info Constants

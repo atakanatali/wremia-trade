@@ -1,4 +1,4 @@
-﻿namespace Papara.Utilities.Models
+﻿namespace WremiaTrade.Utilities.Models
 {
     using System;
 

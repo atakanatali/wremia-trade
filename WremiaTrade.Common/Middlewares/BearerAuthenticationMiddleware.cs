@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-
-using System.Threading.Tasks;
-
-namespace Papara.Common.Middlewares
+﻿namespace WremiaTrade.Common.Middlewares
 {
+    using Microsoft.AspNetCore.Http;
+
+    using System.Threading.Tasks;
+    
     /// <summary>
     /// This middleware support for basic bearer authentication
     /// It Checks access token and authorization header value
@@ -30,7 +30,7 @@ namespace Papara.Common.Middlewares
         {
             string accessToken = context.Request.Cookies["access_token"];
 
-            if (accessToken != null && string.IsNullOrEmpty(context.Request.Headers.Authorization))
+            if (accessToken != null && string.IsNullOrEmpty(context.Request.Headers.Keys.First(p => p.Equals("Authorization"))))
             {
                 context.Request.Headers.Append("Authorization", "Bearer " + accessToken);
                 context.Request.Headers["Authorization"] = "Bearer " + accessToken;

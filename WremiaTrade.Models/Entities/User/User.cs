@@ -142,7 +142,7 @@ namespace WremiaTrade.Models.Entities
         /// </summary>
         [JsonProperty("defaultCurrency")]
         [NotMapped]
-        public Currency DefaultCurrency { get; set; } = Currency.EUR;
+        public Currency DefaultCurrency { get; set; } = Currency.TRY;
 
         #region Public Methods
         /// <summary>
@@ -189,7 +189,7 @@ namespace WremiaTrade.Models.Entities
 
                 defLockDuration = defLockDuration == default ? 60 : defLockDuration;
 
-                return IsLockedOut && RemainingMinuteForLockoutEnd > defLockDuration;
+                return IsLockedOut;
             }
         }
         

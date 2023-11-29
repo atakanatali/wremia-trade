@@ -4,14 +4,14 @@
     "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj": {}
   },
   "projects": {
-    "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj": {
+    "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj",
-        "projectName": "WremiaTrade.Services",
-        "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj",
+        "projectUniqueName": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj",
+        "projectName": "WremiaTrade.ConfigAdapter",
+        "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj",
         "packagesPath": "/Users/atakan/.nuget/packages/",
-        "outputPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/obj/",
+        "outputPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/atakan/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,151 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Models/WremiaTrade.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Models/WremiaTrade.Models.csproj",
+        "projectName": "WremiaTrade.Models",
+        "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Models/WremiaTrade.Models.csproj",
+        "packagesPath": "/Users/atakan/.nuget/packages/",
+        "outputPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/atakan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj": {
+                "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj"
+              },
+              "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj": {
+                "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj",
+        "projectName": "WremiaTrade.Services",
+        "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/WremiaTrade.Services.csproj",
+        "packagesPath": "/Users/atakan/.nuget/packages/",
+        "outputPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/atakan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj": {
+                "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.ConfigAdapter/WremiaTrade.ConfigAdapter.csproj"
+              },
+              "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Models/WremiaTrade.Models.csproj": {
+                "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Models/WremiaTrade.Models.csproj"
+              },
+              "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj": {
+                "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -45,8 +190,64 @@
             "RestSharp": {
               "target": "Package",
               "version": "[109.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj",
+        "projectName": "WremiaTrade.Utilities",
+        "projectPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/WremiaTrade.Utilities.csproj",
+        "packagesPath": "/Users/atakan/.nuget/packages/",
+        "outputPath": "/Users/atakan/Desktop/Projects/Rider/WremiaTrade/WremiaTrade.Utilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/atakan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="6.4.0" />
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="Hangfire.Autofac" Version="2.3.1" />
+      <PackageReference Include="Hangfire.Core" Version="1.7.33" />
+      <PackageReference Include="Hangfire.Redis.StackExchange" Version="1.8.6" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.2.23128.3" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WremiaTrade.Services\WremiaTrade.Services.csproj" />
+      <ProjectReference Include="..\WremiaTrade.Utilities\WremiaTrade.Utilities.csproj" />
+    </ItemGroup>
+
 </Project>

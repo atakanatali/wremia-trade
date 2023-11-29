@@ -1,12 +1,9 @@
-﻿namespace Papara.Common.ApiHelpers
+﻿namespace WremiaTrade.Common.ApiHelpers
 {
     using System.Linq;
-    using System.Net;
-    using System.Net.Http;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Filters;
-    using Papara.Logging.ElasticSearch;
-    using Papara.Services.Abstraction;
+    using WremiaTrade.Services.Abstraction;
 
     /// <summary>
     /// Attribute to prevent modelstate controls in each method
@@ -18,8 +15,8 @@
         /// </summary>
         public override void OnActionExecuting(ActionExecutingContext actionContext)
         {
-            var _logService = actionContext.HttpContext.RequestServices.GetService(typeof(ILogService)) as ILogService;
-            _logService.Info("ValidateModelStateAttribute-OnActionExecuting-logService created");
+            // var _logService = actionContext.HttpContext.RequestServices.GetService(typeof(ILogService)) as ILogService;
+            // _logService.Info("ValidateModelStateAttribute-OnActionExecuting-logService created");
 
             if (!actionContext.ModelState.IsValid)
             {

@@ -1,4 +1,4 @@
-﻿namespace Papara.Utilities.Attributes
+﻿namespace WremiaTrade.Utilities.Attributes
 {
     using System;
 
@@ -9,6 +9,6 @@
     [AttributeUsage(AttributeTargets.Property)]
     public class MaskedLogAttribute : Attribute
     {
-        public LoggingStyle LoggingStyle { get; set; }
+        //public LoggingStyle LoggingStyle { get; set; }
     }
 }

@@ -7,7 +7,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Entities" />
+      <Folder Include="Entities\Common" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WremiaTrade.ConfigAdapter\WremiaTrade.ConfigAdapter.csproj" />
+      <ProjectReference Include="..\WremiaTrade.Utilities\WremiaTrade.Utilities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
 </Project>

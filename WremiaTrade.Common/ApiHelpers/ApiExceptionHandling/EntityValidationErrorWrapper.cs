@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity.Validation;
-
-using Newtonsoft.Json;
-
-namespace Papara.Common.ApiHelpers.ApiExceptionHandling
+﻿namespace WremiaTrade.Common.ApiHelpers.ApiExceptionHandling
 {
+    using System.Data.Entity.Validation;
+
+    using Newtonsoft.Json;
+    
     /// <summary>
     /// Wraps the entity validation error (result) on DbEntityValidationException
     /// </summary>
@@ -13,12 +12,12 @@ namespace Papara.Common.ApiHelpers.ApiExceptionHandling
         /// <summary>
         /// Name of the entity that gets validation exception
         /// </summary>
-        public string EntityName { get; set; }
+        public string? EntityName { get; set; }
 
         /// <summary>
         /// Validation exception error details
         /// </summary>
-        public IList<DbValidationError> ValidationErrors { get; set; }
+        public IList<DbValidationError>? ValidationErrors { get; set; }
     }
 
     /// <summary>

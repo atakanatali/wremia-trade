@@ -1,11 +1,11 @@
-﻿using Newtonsoft.Json;
-
-using Papara.RestSharpClient.JsonContractResolvers;
-
-using RestSharp.Serializers;
-
-namespace Papara.RestSharpClient.Serializers
+﻿namespace WremiaTrade.RestSharpClient.Serializers
 {
+    using Newtonsoft.Json;
+
+    using WremiaTrade.RestSharpClient.JsonContractResolvers;
+
+    using RestSharp.Serializers;
+    
     /// <summary>
     /// Camel Case Serilaizer for Restsharp
     /// </summary>

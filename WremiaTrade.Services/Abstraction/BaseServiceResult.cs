@@ -1,4 +1,4 @@
-﻿namespace Papara.Services.Abstraction
+﻿namespace WremiaTrade.Services.Abstraction
 {
     using System.ComponentModel.DataAnnotations;
 

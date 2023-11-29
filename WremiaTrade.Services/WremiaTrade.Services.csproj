@@ -19,6 +19,13 @@
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="RestSharp" Version="109.0.1" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WremiaTrade.ConfigAdapter\WremiaTrade.ConfigAdapter.csproj" />
+      <ProjectReference Include="..\WremiaTrade.Models\WremiaTrade.Models.csproj" />
+      <ProjectReference Include="..\WremiaTrade.Utilities\WremiaTrade.Utilities.csproj" />
     </ItemGroup>
 
 </Project>

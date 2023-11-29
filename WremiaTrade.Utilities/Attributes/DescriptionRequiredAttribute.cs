@@ -1,6 +1,6 @@
-namespace WremiaTrade.Utilities.Attributes;
-
-public class DescriptionRequiredAttribute
+namespace WremiaTrade.Utilities.Attributes
 {
-    
+    public class DescriptionRequiredAttribute : Attribute
+    {
+    }
 }

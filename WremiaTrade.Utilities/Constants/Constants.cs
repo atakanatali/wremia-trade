@@ -3,7 +3,7 @@ namespace WremiaTrade.Utilities;
 public class Constants
 {
      public class ConnectionStrings
-        {
+     {
             public class SqlServer
             {
                 public const string PaparaConnection = "PaparaConnStr";
@@ -49,65 +49,65 @@ public class Constants
 
             public const string ReportHf = "ReportHfRedisConnStr";
         }
+     
+     public class CronDefinitions
+     {
+         public const string RunEveryMinute = "* * * * *";
 
-        public class CronDefinitions
-        {
-            public const string RunEveryMinute = "* * * * *";
+         public const string RunEveryOddMinutes = "1-59/2 * * * *";
 
-            public const string RunEveryOddMinutes = "1-59/2 * * * *";
+         public const string RunEveryEvenMinutes = "*/2 * * * *";
 
-            public const string RunEveryEvenMinutes = "*/2 * * * *";
+         public const string RunEvery5Minutes = "*/5 * * * *";
 
-            public const string RunEvery5Minutes = "*/5 * * * *";
+         public const string RunEveryHour = "0 * * * *";
 
-            public const string RunEveryHour = "0 * * * *";
+         public const string RunEveryHourAdd4Minute = "4 * * * *";
 
-            public const string RunEveryHourAdd4Minute = "4 * * * *";
+         public const string RunEveryHourAdd5Minute = "5 * * * *";
 
-            public const string RunEveryHourAdd5Minute = "5 * * * *";
+         public const string RunEveryHourAdd6Minute = "6 * * * *";
 
-            public const string RunEveryHourAdd6Minute = "6 * * * *";
+         public const string RunEveryHalfHour = "*/30 * * * *";
 
-            public const string RunEveryHalfHour = "*/30 * * * *";
+         public const string RunEveryQuarterHour = "*/15 * * * *";
 
-            public const string RunEveryQuarterHour = "*/15 * * * *";
+         public const string RunEveryQuarterHourAdd1Minute = "1-59/15 * * * *";
 
-            public const string RunEveryQuarterHourAdd1Minute = "1-59/15 * * * *";
+         public const string RunEveryQuarterHourAdd2Minute = "2-59/15 * * * *";
 
-            public const string RunEveryQuarterHourAdd2Minute = "2-59/15 * * * *";
+         public const string RunEveryQuarterHourAdd3Minute = "3-59/15 * * * *";
 
-            public const string RunEveryQuarterHourAdd3Minute = "3-59/15 * * * *";
+         public const string RunTwiceADay = "0 0,12 * * *";
 
-            public const string RunTwiceADay = "0 0,12 * * *";
+         public const string FirstDayOfEveryMonth = "00 00 1 * *";
 
-            public const string FirstDayOfEveryMonth = "00 00 1 * *";
+         public const string RunEveryDayAt5Am = "0 5 * * *";
 
-            public const string RunEveryDayAt5Am = "0 5 * * *";
+         public const string RunEveryDayAt4Am = "0 4 * * *";
 
-            public const string RunEveryDayAt4Am = "0 4 * * *";
+         public const string RunEveryEightHour = "0 */8 * * *";
 
-            public const string RunEveryEightHour = "0 */8 * * *";
+         public const string RunEveryDayAt8Am = "00 08 * * *";
 
-            public const string RunEveryDayAt8Am = "00 08 * * *";
+         public const string RunEveryDayAtHalfPast8Am = "30 8 * * *";
 
-            public const string RunEveryDayAtHalfPast8Am = "30 8 * * *";
+         public const string RunEveryDayAt9Am = "00 09 * * *";
 
-            public const string RunEveryDayAt9Am = "00 09 * * *";
+         public const string RunEveryDayAt9Pm = "00 21 * * *";
 
-            public const string RunEveryDayAt9Pm = "00 21 * * *";
+         public const string RunEveryDayAt6Pm = "00 18 * * *";
 
-            public const string RunEveryDayAt6Pm = "00 18 * * *";
+         public const string RunEveryWeekDayAt4Pm = "00 16 * * 1-5";
 
-            public const string RunEveryWeekDayAt4Pm = "00 16 * * 1-5";
+         public const string RunEveryDayAtMidnight = "0 0 * * *";
 
-            public const string RunEveryDayAtMidnight = "0 0 * * *";
+         public const string RunEveryYearFifteenToThirtyOfDecemberAtMidnight = "0 0 15-30 12 *";
 
-            public const string RunEveryYearFifteenToThirtyOfDecemberAtMidnight = "0 0 15-30 12 *";
-
-        }
-
-        public class Redis
-        {
+     }
+     
+     public class Redis
+     {
             /// <summary>
             /// Used to specify prefix for redis cluster
             /// </summary>
@@ -208,71 +208,72 @@ public class Constants
             /// </summary>
             public const string SessionToken = "Session_{0}";
         }
-    public class System
-    {
-        /// <summary>
-        /// Redis UI
-        /// </summary>
-        public const string RedisInsightWebAddress = "";
-        
-        /// <summary>
-        /// Elasticvute
-        /// </summary>
-        public const string ElasticInsightWebAddress = "";
-        
-        /// <summary>
-        /// Kibana Elastic UI
-        /// </summary>
-        public const string KibanaWebAddress = "";
-        
-        /// <summary>
-        /// Trade Api Base URL
-        /// </summary>
-        public const string ApiTradeWebAddress = "";
-        
-        /// <summary>
-        /// ES01 Elastic host
-        /// </summary>
-        public const string Es01WebAddress = "";
-        
-        /// <summary>
-        /// Mongo01 database host
-        /// </summary>
-        public const string Mongo01WebAddress = "";
-        
-        /// <summary>
-        /// Calculator Hangfire Host
-        /// </summary>
-        public const string CalculatorHangfireWebAddress = "";
-        
-        /// <summary>
-        /// Indicator Hangfire Host
-        /// </summary>
-        public const string IndicatorHangfireWebAddress = "";
-        
-        /// <summary>
-        /// Notification Hangfire Host
-        /// </summary>
-        public const string NotificationHangfireWebAddress = "";
-        
-        /// <summary>
-        /// Strategy Hangfire Host
-        /// </summary>
-        public const string StrategyHangfireWebAddress = "";
-        
-        /// <summary>
-        /// Trigger Hangfire Host
-        /// </summary>
-        public const string TriggerHangfireWebAddress = "";
-        
-        /// <summary>
-        /// Hangfire Host
-        /// </summary>
-        public const string HangfireWebAddress = "";
-        
-        /// <summary>
-        /// Trader Portal Host
-        /// </summary>
-        public const string PortalWebAddress = "";
-    }
+     
+     public class System
+     {
+            /// <summary>
+            /// Redis UI
+            /// </summary>
+            public const string RedisInsightWebAddress = "";
+            
+            /// <summary>
+            /// Elasticvute
+            /// </summary>
+            public const string ElasticInsightWebAddress = "";
+            
+            /// <summary>
+            /// Kibana Elastic UI
+            /// </summary>
+            public const string KibanaWebAddress = "";
+            
+            /// <summary>
+            /// Trade Api Base URL
+            /// </summary>
+            public const string ApiTradeWebAddress = "";
+            
+            /// <summary>
+            /// ES01 Elastic host
+            /// </summary>
+            public const string Es01WebAddress = "";
+            
+            /// <summary>
+            /// Mongo01 database host
+            /// </summary>
+            public const string Mongo01WebAddress = "";
+            
+            /// <summary>
+            /// Calculator Hangfire Host
+            /// </summary>
+            public const string CalculatorHangfireWebAddress = "";
+            
+            /// <summary>
+            /// Indicator Hangfire Host
+            /// </summary>
+            public const string IndicatorHangfireWebAddress = "";
+            
+            /// <summary>
+            /// Notification Hangfire Host
+            /// </summary>
+            public const string NotificationHangfireWebAddress = "";
+            
+            /// <summary>
+            /// Strategy Hangfire Host
+            /// </summary>
+            public const string StrategyHangfireWebAddress = "";
+            
+            /// <summary>
+            /// Trigger Hangfire Host
+            /// </summary>
+            public const string TriggerHangfireWebAddress = "";
+            
+            /// <summary>
+            /// Hangfire Host
+            /// </summary>
+            public const string HangfireWebAddress = "";
+            
+            /// <summary>
+            /// Trader Portal Host
+            /// </summary>
+            public const string PortalWebAddress = "";
+        }
 }
