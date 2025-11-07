@@ -7,16 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Analyze" />
-      <Folder Include="Calculate" />
-      <Folder Include="Indicator" />
-      <Folder Include="Notification" />
-      <Folder Include="Source" />
-      <Folder Include="Strategy" />
-      <Folder Include="Trade" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <PackageReference Include="Hangfire.Core" Version="1.7.33" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0-preview.2.23128.3" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="RestSharp" Version="109.0.1" />
       <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
@@ -24,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\WremiaTrade.ConfigAdapter\WremiaTrade.ConfigAdapter.csproj" />
+      <ProjectReference Include="..\WremiaTrade.MessageBrokers\WremiaTrade.MessageBrokers.csproj" />
       <ProjectReference Include="..\WremiaTrade.Models\WremiaTrade.Models.csproj" />
       <ProjectReference Include="..\WremiaTrade.Utilities\WremiaTrade.Utilities.csproj" />
     </ItemGroup>
