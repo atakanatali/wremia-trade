@@ -8,7 +8,16 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Hangfire.AspNetCore" Version="1.7.33" />
+        <PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\WremiaTrade.ConfigAdapter\WremiaTrade.ConfigAdapter.csproj" />
+        <ProjectReference Include="..\WremiaTrade.MessageBrokers\WremiaTrade.MessageBrokers.csproj" />
+        <ProjectReference Include="..\WremiaTrade.Models\WremiaTrade.Models.csproj" />
+        <ProjectReference Include="..\WremiaTrade.Services\WremiaTrade.Services.csproj" />
     </ItemGroup>
 
 </Project>
